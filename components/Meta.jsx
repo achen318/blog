@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 export default function Meta(props) {
+  // Props: { title, author, description, image }
   return (
     <Head>
       <meta charSet="utf-8" />

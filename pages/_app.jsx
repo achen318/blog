@@ -1,12 +1,10 @@
-import Footer from '../components/Footer';
-import Meta from '../components/Meta';
+import Footer from '../components/Footer.jsx';
 
 import '../styles/globals.css';
 
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <Meta />
       <Component {...pageProps} />
       <Footer />
     </>
