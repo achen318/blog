@@ -7,12 +7,10 @@ export default function PostCard(props) {
     <Link href={`/posts/${props.url}`}>
       <a className={styles.card}>
         <h2>{props.title}</h2>
-        <p>
-          <small>
-            By {props.author}, {props.date}
-          </small>
+        <p className={styles.authorDate}>
+          By {props.author}, {props.date}
         </p>
-        <p>{props.description}</p>
+        <p className={styles.description}>{props.description}</p>
       </a>
     </Link>
   );

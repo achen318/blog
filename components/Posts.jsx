@@ -18,7 +18,7 @@ export default function Posts() {
         title="Second Post"
         author="b"
         date="at least a year ago"
-        description="No"
+        description="Double, double toil and trouble; Fire burn and caldron bubble."
       />
 
       <PostCard
@@ -26,7 +26,7 @@ export default function Posts() {
         title="Third Post"
         author="beng"
         date="literally right now"
-        description="e"
+        description="eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
       />
     </div>
   );
