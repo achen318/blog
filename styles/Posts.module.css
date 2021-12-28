@@ -1,0 +1,5 @@
+.postCardContainer {
+  display: flex;
+
+  flex-direction: column;
+}
