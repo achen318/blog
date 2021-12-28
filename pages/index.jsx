@@ -1,4 +1,5 @@
 import Meta from '../components/Meta.jsx';
+import PostCard from '../components/PostCard.jsx';
 
 import styles from '../styles/Home.module.css';
 
@@ -19,11 +20,30 @@ export default function Home() {
             this is a very nice blog 10/10 would read
           </p>
 
-          <div className={styles.grid}>
-            <a href="https://nextjs.org/docs" className={styles.card}>
-              <h3>Bruh</h3>
-              <p>really bruh</p>
-            </a>
+          <div className={styles.postsContainer}>
+            <PostCard
+              url="first-post"
+              title="First Post"
+              author="a"
+              date="tomorrow"
+              description="Yes a very nice blog"
+            />
+
+            <PostCard
+              url="second-post"
+              title="Second Post"
+              author="b"
+              date="at least a year ago"
+              description="No"
+            />
+
+            <PostCard
+              url="third-post"
+              title="Third Post"
+              author="beng"
+              date="literally right now"
+              description="e"
+            />
           </div>
         </main>
       </div>
