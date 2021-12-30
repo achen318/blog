@@ -10,7 +10,52 @@
   padding: 4rem 0;
 }
 
-.main > div {
+.main > section {
   max-width: 50em;
   width: 100%;
+}
+
+.postCardContainer {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.card {
+  overflow-wrap: break-word;
+
+  transition: color 0.15s ease, border-color 0.15s ease;
+
+  margin: 1rem;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0;
+
+  font-size: 1.5em;
+}
+
+.card p {
+  margin: 0;
+}
+
+.authorDate {
+  color: #666;
+}
+
+.cardDescription {
+  padding: 0.5rem 0 0 0;
+
+  font-size: 1.25em;
+  line-height: 1.5;
 }
