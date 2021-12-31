@@ -1,8 +1,8 @@
 ---
 title: 'Second Post'
-author: 'reem'
+author: 'Jane Doe'
 date: '2020-01-02'
-description: 'exciting stuff!1!11'
+description: 'I am the second post'
 ---
 
 # you really thought theres gonna be stuff here
