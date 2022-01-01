@@ -17,6 +17,10 @@ export default function Post({ postData }) {
           By {postData.author}, {postData.date}
         </p>
         <p>{postData.description}</p>
+
+        <br />
+
+        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </main>
     </>
   );
