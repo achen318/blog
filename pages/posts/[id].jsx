@@ -1,8 +1,25 @@
 import { getPostData, getPostIds } from '../../lib/posts';
 
-export default function Post() {
-  // TODO: fix this
-  return <h1>Hello</h1>;
+import Meta from '../../components/Meta.jsx';
+
+export default function Post({ postData }) {
+  return (
+    <>
+      <Meta
+        title={postData.title}
+        author={postData.author}
+        description={postData.description}
+      />
+
+      <main>
+        <h2>{postData.title}</h2>
+        <p>
+          By {postData.author}, {postData.date}
+        </p>
+        <p>{postData.description}</p>
+      </main>
+    </>
+  );
 }
 
 /**
